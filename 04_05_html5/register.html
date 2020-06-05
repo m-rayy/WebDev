@@ -3,20 +3,39 @@
     <title>Register</title>
 </head>
 <body>
-    <form>
-        First name: <input type="text"><br>
-        Last name: <input type="text"><br>
-        Email: <input type="email" required><br>
-        Birthday: <input type="date"><br>
-        Gender:<br>
-            <input type="radio" name="gender">Male<br>
-            <input type="radio" name="gender">Female<br>
-            <input type="radio" name="gender">Other<br>
-        Pets:<br>
-            <input type="checkbox">Dog<br>
-            <input type="checkbox">Cat<br>
-        <input type="submit" value="Register!">
-        <input type="reset">
-    </form>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <nav>
+        <a href="index.html">Go back to main page</a>
+    </nav><br>
+    <section>
+        <form method="GET">
+            <!-- <form method="POST"> -->
+            First name: <input type="text" name="firstname"><br>
+            Last name: <input type="text" name="lastname"><br>
+            Email: <input type="email" name="email" required><br>
+            Password: <input type="password" name="email" minlength="5"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            Gender:<br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+                <input type="radio" name="gender" value="other">Other<br>
+            Pets:<br>
+                <input type="checkbox" name="pets" value="dog">Dog<br>
+                <input type="checkbox" name="pets" value="cat">Cat<br>
+            Cars<br>
+            <select name='cars'>
+                <option value="Volvo">Volvo</option>
+                <option value="Audi"">Audi</option>
+            </select><br>
+            <br>
+            <input type="submit" value="Register!">
+            <input type="reset">
+        </form>
+    </section>
+    <footer>
+        <p>Website made with love!</p>
+    </footer>
 </body>
 </html>

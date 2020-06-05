@@ -42,6 +42,7 @@ Install a text editor (Select one):
 *	https://www.sublimetext.com/
 *	https://atom.io/
 *	https://code.visualstudio.com/
+* 	TODO - Useful vscode html extensions: https://code.visualstudio.com/docs/languages/html
 
 Tags:
 *	`<html>`
@@ -94,8 +95,14 @@ Topics:
 *	Chrome view Source
 
 Resources:
-*	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
+*   https://www.w3schools.com/html/html5_semantic_elements.asp
 *	https://waitbutwhy.com/
+* 	Quiz: https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML
+* 	TODO - Exercises: https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1
+*	TODO - Course after CSS: https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
+
+Quizes & Exercises:
+
 
 > "__If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in HTML. Keep going as we will keep building on top of this knowledge."
 
