@@ -193,9 +193,11 @@ Reference websites:
 *	https://css-tricks.com/
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-*	https://unsplash.com/
-* https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
+* 	https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
 *	https://specificity.keegan.st/
+
+Website for free images:
+*   https://unsplash.com/
 
 Website for color check:
 *	http://paletton.com/
