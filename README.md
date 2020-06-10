@@ -194,7 +194,7 @@ Reference websites:
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * 	https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
-*	https://specificity.keegan.st/
+*	https://specificity.keegan.st/ (specificity test)
 
 Website for free images:
 *   https://unsplash.com/

@@ -2,12 +2,16 @@
     property: value;
 } */
 
+* {
+    text-align: right;
+}
+
 body {
     background-image: url(img/javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg);
     background-size: cover;
 }
 
-h2 {
+h2 + p:hover {
     color: #AA3939;
     text-align: center;
     /* border: 5px dashed purple; */
@@ -26,3 +30,18 @@ li {
     display: inline-block;
 }
 
+.webtext {
+    border: 5px dashed rgba(255, 170, 170, 0.5);
+}
+
+.active {
+    color: pink;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
