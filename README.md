@@ -187,7 +187,7 @@ Topics:
 *	Linking fonts and external stylesheets
 
 Exercises:
-*	https://flukeout.github.io/
+*	CSS Diner (fun!): https://flukeout.github.io/
 
 Reference websites:
 *	https://css-tricks.com/
