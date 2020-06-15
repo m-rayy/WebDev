@@ -25,8 +25,16 @@ element1 ~ element2             # all (multiple) element2 that follows element1
 :nth-last-child                 # nth element (N) in reverse order that is inside of another element
 :first-of-type                  # first element of that type within another element
 :nth-of-type(N)                 # specific element based on its type and order (N, even, odd) in another element
-:nth-of-type(Nn+Start)           # selects every nth (N) element, starting the count at a specific instance (Start) of that element
-WIP: CSS Diner #23
+:nth-of-type(Nn+Start)          # selects every nth (N) element, starting the count at a specific instance (Start) of that element
+:only-of-type                   # selects the only element of its type within another element
+:last-of-type                   # selects the last element of its type within another element
+:empty                          # selects elements that don't have any other elements inside of them
+:not(x)                         # select all elements that do not match selector "X"
+[attribute]                     # select all elements that have a specific attribute
+[attribute="value"]             # select all elements that have a specific attribute value
+[attribute^="value"]            # select all elements with an attribute value that starts with specific characters
+[attribute$="value"]            # select all elements with an attribute value that ends with specific characters
+[attribute*="value"]            # select all elements with an attribute value that contains specific characters anywhere
 !important (not recommended)    # overwrites cascading styles
 
 
