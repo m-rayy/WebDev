@@ -123,7 +123,7 @@ Selector {
 How to:
 *	External
 	```html
-	<link rel="stylesheet type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	```
 *	Internal
 	```html
@@ -191,10 +191,10 @@ Topics:
 
 Exercises:
 *	CSS Diner (fun!): https://flukeout.github.io/
-*	Interactive CSS exercises that will improve your ability to discover new HTML: https://www.w3schools.com/css/exercise.asp
+*	Interactive CSS exercises (TODO completed only until CSS Outline): https://www.w3schools.com/css/exercise.asp
 
 Reference websites:
-*	https://css-tricks.com/
+*	CSS Almamanc: https://css-tricks.com/almanac/
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * 	https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
@@ -232,17 +232,24 @@ Properties
 *	`box-shadow`
 
 Tools
-*	Chrome Toggle Device
-*	https://codepen.io/
+*	Chrome Toggle Device: https://codepen.io/
+*	Minimise critical render path: https://www.cleancss.com/css-minify/
+*	Browser support: https://www.w3schools.com/cssref/css3_browsersupport.asp<br>
+	Using the following prefixes for experimental features:<br>
+		-moz-     Firefox and other browsers using Mozilla's browser engine<br>
+		-webkit-  Safari, Chrome and browsers using the Webkit engine<br>
+		-o-       Opera<br>
+		-ms-      Internet Explorer (but not always)<br>
+*	Report % of global users seeing your elements: https://caniuse.com/
 
 Exercises:
 *	http://flexboxfroggy.com/
 
 Reference websites:
-*	https://caniuse.com/
-*	https://www.w3schools.com/cssref/css3_browsersupport.asp
-*	http://shouldiprefix.com/
-*	https://robots.thoughtbot.com/transitions-and-transforms
+*	Flexbox guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*	Transitions & transforms: https://robots.thoughtbot.com/transitions-and-transforms
+*	? http://shouldiprefix.com/
+*   ? https://autoprefixer.github.io/
 
 > __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
