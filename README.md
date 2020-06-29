@@ -3,6 +3,9 @@
 
 All resources and notes from the Complete Web Developer in 2020: Zero to Mastery course
 
+Complete resources (open source document contributed by a student):
+https://zero-to-mastery.github.io/resources/
+
 ******************************************************************************************
 ## 1.	__Introduction__
 
@@ -188,6 +191,7 @@ Topics:
 
 Exercises:
 *	CSS Diner (fun!): https://flukeout.github.io/
+*	Interactive CSS exercises that will improve your ability to discover new HTML: https://www.w3schools.com/css/exercise.asp
 
 Reference websites:
 *	https://css-tricks.com/

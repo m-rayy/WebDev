@@ -7,5 +7,23 @@ h2 {
 }
 
 p {
-    color: purple;
+    font-size: 20px;
+}
+
+span {
+    /* Font-size Nx the element size (20 * N) */
+    /* font-size: 2em; */
+    /* Font-size Nx in relation to the root element (html) */
+    font-size: 2rem;
+}
+
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    /* Padding: TOP RIGHT BOTTOM LEFT */
+    /* Padding: or use the padding-top etc. elements */
+    padding: 5px 20px 5px 20px;
+    margin: 0px 20px 0px 20px;
+    width: 33px;
+    height: 55px;
 }
