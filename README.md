@@ -191,7 +191,7 @@ Topics:
 
 Exercises:
 *	CSS Diner (fun!): https://flukeout.github.io/
-*	Interactive CSS exercises (TODO completed only until CSS Outline): https://www.w3schools.com/css/exercise.asp
+*	TODO Interactive CSS exercises (completed only until CSS Outline): https://www.w3schools.com/css/exercise.asp
 
 Reference websites:
 *	CSS Almamanc: https://css-tricks.com/almanac/
@@ -244,10 +244,12 @@ Tools
 
 Exercises:
 *	http://flexboxfroggy.com/
+*   TODO CSS Course https://www.freecodecamp.org/learn/responsive-web-design/basic-css/
 
 Reference websites:
 *	Flexbox guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 *	Transitions & transforms: https://robots.thoughtbot.com/transitions-and-transforms
+*	Share interactive editable code on codepen.io: https://codepen.io/rachelcope/pen/vOqVjg
 *	? http://shouldiprefix.com/
 *   ? https://autoprefixer.github.io/
 
