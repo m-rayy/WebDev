@@ -3,7 +3,10 @@
 
 All resources and notes from the Complete Web Developer in 2020: Zero to Mastery course
 
-Complete resources (open source document contributed by a student):
+Official resources:
+https://zerotomastery.io/resources/
+
+Inofficial resources (open source document contributed by a student):
 https://zero-to-mastery.github.io/resources/
 
 ******************************************************************************************
@@ -261,6 +264,7 @@ Reference websites:
 Reference:
 * 	Get started: https://getbootstrap.com/
 *	Components: https://getbootstrap.com/docs/4.5/components/alerts/
+*	Grid: https://getbootstrap.com/docs/4.5/layout/grid/
 *	CDN: https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 App for creating users list:
 *	https://mailchimp.com
