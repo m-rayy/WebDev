@@ -270,6 +270,7 @@ Reference:
 Landing page:
 * 	HTML <meta> Tag: https://www.w3schools.com/tags/tag_meta.asp
 *	Viewport meta tag: https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+*	Viewport meta tag - Apple guide: https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html
 *	UTF8: https://www.quora.com/What-is-UTF8
 *	Perfect Full Page Background Image: https://css-tricks.com/perfect-full-page-background-image/
 
