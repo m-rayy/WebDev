@@ -258,7 +258,10 @@ Reference websites:
 ******************************************************************************************
 ## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
-
+Reference:
+* 	Get started: https://getbootstrap.com/
+*	Components: https://getbootstrap.com/docs/4.5/components/alerts/
+*	CDN: https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 App for creating users list:
 *	https://mailchimp.com
 
