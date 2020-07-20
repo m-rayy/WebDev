@@ -266,9 +266,15 @@ Reference:
 *	Components: https://getbootstrap.com/docs/4.5/components/alerts/
 *	Grid: https://getbootstrap.com/docs/4.5/layout/grid/
 *	CDN: https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+
+Landing page:
+* 	HTML <meta> Tag: https://www.w3schools.com/tags/tag_meta.asp
+*	Viewport meta tag: https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+*	UTF8: https://www.quora.com/What-is-UTF8
+*	Perfect Full Page Background Image: https://css-tricks.com/perfect-full-page-background-image/
+
 App for creating users list:
 *	https://mailchimp.com
-
 
 Website with animation examples:
 *	https://daneden.github.io/animate.css
