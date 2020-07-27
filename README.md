@@ -310,6 +310,12 @@ Free Design resources:
 ## 10.	__Career Of A Web Developer__
 ******************************************************************************************
 
+TODO:
+*	Create personal website
+*	Work on 1~2 Big Projects
+*	Showcase on GitHub
+*	Create a blog (maybe as training progress)
+
 ******************************************************************************************
 ## 11.	__Javascript__
 
