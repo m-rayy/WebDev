@@ -280,7 +280,7 @@ App for creating users list:
 *	https://mailchimp.com/help/create-a-landing-page/
 
 Website with animation examples:
-*	https://daneden.github.io/animate.css
+*	https://animate.style/
 
 Website for patterns:
 *	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
@@ -288,10 +288,7 @@ Website for patterns:
 *	https://startbootstrap.com/template-categories/all/
 *	https://mdbootstrap.com/freebies/
 *	https://www.creative-tim.com/
-
-
-Generating animated patterns:
-*	https://daneden.github.io/animate.css/
+*	https://cruip.com/
 
 
 Installing Github:
