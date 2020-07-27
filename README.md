@@ -273,9 +273,11 @@ Landing page:
 *	Viewport meta tag - Apple guide: https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html
 *	UTF8: https://www.quora.com/What-is-UTF8
 *	Perfect Full Page Background Image: https://css-tricks.com/perfect-full-page-background-image/
+*	Bootstrap Flex: https://getbootstrap.com/docs/4.3/utilities/flex/
 
 App for creating users list:
 *	https://mailchimp.com
+*	https://mailchimp.com/help/create-a-landing-page/
 
 Website with animation examples:
 *	https://daneden.github.io/animate.css
