@@ -300,7 +300,7 @@ Installing Github:
 Grid Cheat Sheet:
 *	http://grid.malven.co/
 
-Grid Garden:
+Exercise - Grid Garden:
 *	https://cssgridgarden.com/
 
 Free Design resources:
