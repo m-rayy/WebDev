@@ -297,8 +297,9 @@ Installing Github:
 ******************************************************************************************
 ## 9.	__CSS Grid + CSS Layout__
 
-Grid Cheat Sheet:
-*	http://grid.malven.co/
+Cheat Sheets:
+*	Grid: http://grid.malven.co/
+*	Media Queries: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 Exercise - Grid Garden:
 *	https://cssgridgarden.com/
