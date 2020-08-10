@@ -405,6 +405,9 @@ Javascript keywords:
 - with
 - yield
 
+Reference websites:
+*	JS array methods: https://www.w3schools.com/jsref/jsref_obj_array.asp
+
 ******************************************************************************************
 ## 12.	__DOM Manipulation__
 

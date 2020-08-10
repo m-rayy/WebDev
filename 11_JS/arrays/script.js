@@ -57,3 +57,5 @@ console.log("concatenated list:", list);
 // Sort list
 list.sort()
 console.log("sorted list:", list)
+
+// For more methods: https://www.w3schools.com/jsref/jsref_obj_array.asp
