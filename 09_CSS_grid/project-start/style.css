@@ -1,6 +1,7 @@
 /* Normalising CSS */
 body {
     margin: auto 0;
+    font-family: Arial;
 }
 
 .zone {
@@ -22,14 +23,34 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
 /* NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav{
     display: flex;
     list-style: none;
     font-size: 0.7em;
     margin: 0;
-
 }
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
 
 .push {
     /* Adds push block between list items */
@@ -43,6 +64,40 @@ li {
 a {
     color: #f5f5f6;
     text-decoration: none;
+}
+
+/* COVER */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Viewboard height of 50% */
+    height: 50vh;
+}
+
+.cover {
+    width: 30rem;
+}
+
+/* GRID */
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/

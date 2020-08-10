@@ -6,7 +6,7 @@ All resources and notes from the Complete Web Developer in 2020: Zero to Mastery
 Official resources:
 https://zerotomastery.io/resources/
 
-Inofficial resources (open source document contributed by a student):
+Unofficial resources (open source document contributed by a student):
 https://zero-to-mastery.github.io/resources/
 
 ******************************************************************************************
