@@ -430,6 +430,8 @@ Reference websites:
 *	http://youmightnotneedjquery.com/
 *	https://babeljs.io/
 
+TODO - DOM-events exercise (BONUS & ADDITIONAL BONUS)
+
 ******************************************************************************************
 ## 13.	__Advanced Javascript__
 ******************************************************************************************

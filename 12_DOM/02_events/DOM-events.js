@@ -86,3 +86,30 @@ inputButton.addEventListener("keypress", addListAfterKeyPress);
 // now to wait for click or keypress. We want to let it know though that we want this action to happen
 // when a click happens. So the function now automatically gets run (gets added the ()) every time the click happens.
 // So we are passing a reference to the function without running it.
+
+
+// Exercises
+
+// 1. If you click on the list item, it toggles the .done  class on and off.
+var shopping_list = document.querySelectorAll("li");
+
+shopping_list.forEach(function(item) {
+    item.addEventListener("click", function() {
+        item.classList.toggle("done")
+    });
+})
+
+// 2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button.
+// Adjusted HTML file
+var delete_buttons = document.getElementsByClassName("delete")
+
+for(var i = 0; i < delete_buttons.length; i++){
+	delete_buttons[i].addEventListener("click", function(event) {
+        event.target.parentNode.remove()
+    });
+}
+
+// 3. BONUS: When adding a new list item, it automatically adds the delete button next to it (hint: be sure to check if new items are clickable too!)
+
+
+// 4. ADDITIONAL BONUS: When adding a new list item, it automatically adds event to toggle .done class
