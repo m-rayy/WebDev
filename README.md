@@ -431,6 +431,7 @@ Reference websites:
 *	https://babeljs.io/
 
 TODO - DOM-events exercise (BONUS & ADDITIONAL BONUS)
+TODO - Background Generator - BONUS
 
 ******************************************************************************************
 ## 13.	__Advanced Javascript__
