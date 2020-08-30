@@ -496,6 +496,7 @@ Popular code editors:
 * TODO: Check recommended VSCode extensions for web developers: https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development
 * [Atom](https://atom.io/)
 
+
 ******************************************************************************************
 ## 16.	__Git + Github + Open Source Projects__
 
@@ -550,6 +551,21 @@ Once you are in your forked project directory in your command prompt....
 4.	Now, you can keep your fork synced with the upstream repository with a few Git commands.
 	One simple way is to do the below command from the master of your forked repository:
 ```git pull upstream master```
+
+Syncing a fork:
+```
+git remote -v
+git remote add upstream <git_repo_url>
+git remote -v
+```
+Or alternatively try this:
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
+
+
+Resources (Contributing to Open Source):
+*	https://github.com/zero-to-mastery
+*	https://github.com/zero-to-mastery/start-here-guidelines*	
+
 
 ******************************************************************************************
 ## 17.	__A Day In The Life Of A Developer__
@@ -1068,3 +1084,4 @@ The Complete Junior to Senior Web Developer Roadmap (2020):
 ******************************************************************************************
 ## 32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
 ******************************************************************************************
+
