@@ -493,6 +493,7 @@ cls - clear the terminal screen
 Popular code editors:
 * [Sublime Text 3](https://www.sublimetext.com/3)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* TODO: Check recommended VSCode extensions for web developers: https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development
 * [Atom](https://atom.io/)
 
 ******************************************************************************************
