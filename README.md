@@ -433,9 +433,14 @@ Reference websites:
 TODO - DOM-events exercise (BONUS & ADDITIONAL BONUS)
 TODO - Background Generator (BONUS)
 
+
 ******************************************************************************************
 ## 13.	__Advanced Javascript__
 ******************************************************************************************
+
+Reference websites:
+*	Convert all JS code to run in ALL browsers: https://babeljs.io/
+
 
 ******************************************************************************************
 ## 14. __Command Line__
