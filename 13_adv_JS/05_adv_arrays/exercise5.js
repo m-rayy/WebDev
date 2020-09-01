@@ -69,7 +69,7 @@ const newArray = arrayNum.map((num, i) => {
 });
 newArray;
 // i = index (length of array)
-const mapArray = arrayNum.map(num => { // why (num, i) in solutions?
+const mapArray = arrayNum.map(num => { // TODO: why (num, i) in solutions?
   return num * 2
 });
 mapArray;

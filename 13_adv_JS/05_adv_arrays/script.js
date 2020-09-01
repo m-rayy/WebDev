@@ -16,7 +16,8 @@ double;
 
 // Refactor:
 // No need for brackets if there is only a single parameter
-// No need to 'return' with map (didn't work in exercise)
+// No need to 'return' with map
+// TODO: Removing 'return' didn't work in exercise 5
 const mapArray = array.map(num => num * 2);
 
 mapArray;
