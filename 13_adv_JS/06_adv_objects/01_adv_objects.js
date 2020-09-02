@@ -42,7 +42,7 @@ class Player {
     }
 };
 
-// New syntax:
+// New syntax (extends + super):
 class Wizard extends Player {
     constructor(name, type) {
         super(name, type)
