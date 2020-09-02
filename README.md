@@ -441,6 +441,9 @@ TODO - Background Generator (BONUS)
 Reference websites:
 *	Convert all JS code to run in ALL browsers: https://babeljs.io/
 *	Array explorer: https://sdras.github.io/array-explorer/
+*	JS Comparison Table: https://dorey.github.io/JavaScript-Equality-Table/
+*	Equality comparisons 1: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+*	Equality comparisons 2:	https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3
 *	TODO (maybe) JS course: https://www.udemy.com/course/advanced-javascript-concepts/?referralCode=5A4CCA2C2FC6BA53CC29
 
 ******************************************************************************************
