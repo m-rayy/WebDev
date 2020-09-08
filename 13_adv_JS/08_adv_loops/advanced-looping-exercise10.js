@@ -78,16 +78,14 @@ amazonBasket = {
 function checkBasket(basket, lookingFor) {
   for (item in basket) {
     if (item === lookingFor) {
-      console.log(`${lookingFor} is in your basket`)
-      // TODO: Quokka not printing returns:
       return `${lookingFor} is in your basket`
     }
   }
-  console.log('that does not exist in your basket')
+  // console.log('that does not exist in your basket')
   return 'that does not exist in your basket'
 }
 
-checkBasket(amazonBasket, 'glasses');
-checkBasket(amazonBasket, 'books');
-checkBasket(amazonBasket, 'floss');
-checkBasket(amazonBasket, 'guitar');
+console.log(checkBasket(amazonBasket, 'glasses'));
+console.log(checkBasket(amazonBasket, 'books'));
+console.log(checkBasket(amazonBasket, 'floss'));
+console.log(checkBasket(amazonBasket, 'guitar'));
