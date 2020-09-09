@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Script tags: -->
+    <script type='text/javascript' src='./1.js'></script> <!-- Eg. jQuery file loaded first -->
+    <script type='text/javascript' src='./2.js'></script> <!-- Eg. JS file loaded second-->
+    <script type='text/javascript' src='./3.js'></script> <!-- Etc. -->
+    <script type='text/javascript' src='./4.js'></script>
+    <!-- Issues: -->
+    <!-- Copy paste madness between pages -->
+    <!-- Lack of dependency resolution - scripts need to be added in order -->
+    <!-- Doesn't solve global namespace problem: all variables saved on window object -->
+</body>
+</html>
