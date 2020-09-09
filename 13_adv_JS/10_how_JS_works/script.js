@@ -118,4 +118,4 @@ console.log('2');
 
 
 // What if setTimeout is 0?
-// Order still 1, 3, 2
+// Order is still 1, 3, 2 due to above Run-time environment order
