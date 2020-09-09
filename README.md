@@ -439,12 +439,14 @@ TODO - Background Generator (BONUS)
 ******************************************************************************************
 
 Reference websites:
-*	Convert all JS code to run in ALL browsers: https://babeljs.io/
+*	Convert all JS code to run in ALL browsers: https://babeljs.io
 *	Array explorer: https://sdras.github.io/array-explorer/
 *	JS Comparison Table: https://dorey.github.io/JavaScript-Equality-Table/
 *	Equality comparisons 1: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 *	Equality comparisons 2:	https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3
 *	TODO (maybe) JS course: https://www.udemy.com/course/advanced-javascript-concepts/?referralCode=5A4CCA2C2FC6BA53CC29
+*	Brief history of JS Modules: https://medium.com/sungthecoder/javascript-module-module-loader-module-bundler-es6-module-confused-yet-6343510e7bde
+*	ES modules (deep-dive): https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
 
 ******************************************************************************************
 ## 14. __Command Line__
