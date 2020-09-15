@@ -48,7 +48,7 @@ Install a text editor (Select one):
 *	https://www.sublimetext.com/
 *	https://atom.io/
 *	https://code.visualstudio.com/
-* 	TODO - Useful vscode html extensions: https://code.visualstudio.com/docs/languages/html
+* 	TODO: Useful vscode html extensions: https://code.visualstudio.com/docs/languages/html
 
 Tags:
 *	`<html>`
@@ -104,8 +104,8 @@ Resources:
 *   https://www.w3schools.com/html/html5_semantic_elements.asp
 *	https://waitbutwhy.com/
 * 	Quiz: https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML
-* 	TODO - Exercises: https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1
-*	TODO - Course after CSS: https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
+* 	TODO: Exercises: https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1
+*	TODO: Course after CSS: https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
 
 Quizes & Exercises:
 
@@ -194,7 +194,7 @@ Topics:
 
 Exercises:
 *	CSS Diner (fun!): https://flukeout.github.io/
-*	TODO Interactive CSS exercises (completed only until CSS Outline): https://www.w3schools.com/css/exercise.asp
+*	TODO: Interactive CSS exercises (completed only until CSS Outline): https://www.w3schools.com/css/exercise.asp
 
 Reference websites:
 *	CSS Almamanc: https://css-tricks.com/almanac/
@@ -247,7 +247,7 @@ Tools
 
 Exercises:
 *	http://flexboxfroggy.com/
-*   TODO CSS Course https://www.freecodecamp.org/learn/responsive-web-design/basic-css/
+*   TODO: CSS Course https://www.freecodecamp.org/learn/responsive-web-design/basic-css/
 
 Reference websites:
 *	Flexbox guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -430,8 +430,8 @@ Reference websites:
 *	http://youmightnotneedjquery.com/
 *	https://babeljs.io/
 
-TODO - DOM-events exercise (BONUS & ADDITIONAL BONUS)
-TODO - Background Generator (BONUS)
+TODO: DOM-events exercise (BONUS & ADDITIONAL BONUS)
+TODO: Background Generator (BONUS)
 
 
 ******************************************************************************************
@@ -444,9 +444,17 @@ Reference websites:
 *	JS Comparison Table: https://dorey.github.io/JavaScript-Equality-Table/
 *	Equality comparisons 1: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 *	Equality comparisons 2:	https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3
-*	TODO (maybe) JS course: https://www.udemy.com/course/advanced-javascript-concepts/?referralCode=5A4CCA2C2FC6BA53CC29
+*	TODO: (maybe) JS course: https://www.udemy.com/course/advanced-javascript-concepts/?referralCode=5A4CCA2C2FC6BA53CC29
 *	Brief history of JS Modules: https://medium.com/sungthecoder/javascript-module-module-loader-module-bundler-es6-module-confused-yet-6343510e7bde
 *	ES modules (deep-dive): https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
+* 	TODO: https://github.com/getify/You-Dont-Know-JS (book series)
+*	TODO: https://javascript.info/
+*	TODO: http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/
+*	Problem solving skills: https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2
+* 	TODO: Coding challenges - https://coderbyte.com/
+
+TODO: 12_challenge Question 3 (reverse converter + automatic multi-way converter)
+
 
 ******************************************************************************************
 ## 14. __Command Line__
