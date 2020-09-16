@@ -593,7 +593,6 @@ Resources (Contributing to Open Source):
 ******************************************************************************************
 ## 18.	__NPM + NPM Scripts__
 
-
 ```
 npm init
 npm install
@@ -602,12 +601,26 @@ npm install –g browserify
 
 Install node and npm:
 *	https://www.npmjs.com/get-npm
-*	https://nodejs.org/es/
+*	https://nodejs.org/en/
+*	https://docs.npmjs.com/try-the-latest-stable-version-of-npm
 
-Reference websites:
+Packages:
 *	https://www.npmjs.com/
-*	https://www.npmjs.com/package/react
+
+Global packages:
+*	https://www.npmjs.com/package/live-server
+*	https://www.npmjs.com/package/browserify to load modules & bundle scripts:
+	```
+	browserify script.js > bundle.js
+	```
+
+Local packages:
+*	https://www.npmjs.com/package/lodash
 *	https://lodash.com/
+
+TODO:
+*	https://www.npmjs.com/package/react
+
 
 ******************************************************************************************
 ## 19.	__React.js + Redux__
