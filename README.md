@@ -593,33 +593,69 @@ Resources (Contributing to Open Source):
 ******************************************************************************************
 ## 18.	__NPM + NPM Scripts__
 
-```
-npm init
-npm install
-npm install –g browserify
-```
-
 Install node and npm:
 *	https://www.npmjs.com/get-npm
 *	https://nodejs.org/en/
 *	https://docs.npmjs.com/try-the-latest-stable-version-of-npm
+*	Version calculator: https://semver.npmjs.com/
+*	
+
+Initialise npm (create package.json file in project)
+```
+npm init
+```
+
+The package.json file serves as a dependency file.
+I.E. the node_modules could be deleted before a commit and re-initiated with:
+```
+npm install
+```
+Dependencies only required in the development phase and not shipped to production are saved under devDependencies.
+
+To (globally) install additional packages available from the npm repository, use:
+```
+npm install –g browserify
+```
+To (locally) install additional packages, use:
+```
+npm install browserify
+```
 
 Packages:
 *	https://www.npmjs.com/
 
-Global packages:
+Global packages in example:
 *	https://www.npmjs.com/package/live-server
 *	https://www.npmjs.com/package/browserify to load modules & bundle scripts:
 	```
 	browserify script.js > bundle.js
 	```
+	You will need to re-bundle after any JS changes.
+	You can add the bundle script as 'build' in the package.json file to speed it up:
+	```
+	"scripts": {
+    	"build": "browserify script.js > bundle.js"
+  	}
+	```
+	You can call this script in the CLI with:
+	```
+	npm run build
+	```
+	You can expand your script to also run live-server on build:
+	```
+	"scripts": {
+    	"build": "browserify script.js > bundle.js && live-server"
+  	}
+	```
 
-Local packages:
+Local packages in example:
 *	https://www.npmjs.com/package/lodash
 *	https://lodash.com/
 
-TODO:
-*	https://www.npmjs.com/package/react
+Simplefolio:
+*	Repo: https://github.com/cobidev/simplefolio
+*	Logo maker: https://hatchful.shopify.com/
+*	CSS vs SCSS: https://stackoverflow.com/questions/46400443/what-is-the-difference-between-css-and-scss
 
 
 ******************************************************************************************
