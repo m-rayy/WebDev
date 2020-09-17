@@ -655,8 +655,8 @@ Local packages in example:
 Simplefolio:
 *	Repo: https://github.com/cobidev/simplefolio
 *	Logo maker: https://hatchful.shopify.com/
-*	CSS vs SCSS: https://stackoverflow.com/questions/46400443/what-is-the-difference-between-css-and-scss
-
+*	CSS vs SCSS (SASS): https://stackoverflow.com/questions/46400443/what-is-the-difference-between-css-and-scss
+*	TODO: full modification & deployment with [Netlify](https://netlify.com/)
 
 ******************************************************************************************
 ## 19.	__React.js + Redux__
