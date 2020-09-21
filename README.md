@@ -658,8 +658,21 @@ Simplefolio:
 *	CSS vs SCSS (SASS): https://stackoverflow.com/questions/46400443/what-is-the-difference-between-css-and-scss
 *	TODO: full modification & deployment with [Netlify](https://netlify.com/)
 
+
 ******************************************************************************************
 ## 19.	__React.js + Redux__
+
+create-react-app v1:
+*	https://www.npmjs.com/package/create-react-app
+*	https://github.com/facebook/create-react-app
+*	https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
+
+create-react-app v2:
+*	https://reactjs.org/blog/2018/10/01/create-react-app-v2.html
+
+create-react-app v3:
+*	https://create-react-app.dev/docs/getting-started/
+*	https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b
 
 ```
 npm install –g create-react-app
@@ -667,7 +680,6 @@ create-react-app “name”
 npm start
 npm install tachyons
 ```
-
 
 Website for fonts download:
 *	http://www.cufonfonts.com/en
@@ -703,6 +715,7 @@ npm install redux-thunk
 *	https://github.com/reactjs/reselect
 *	https://redux-saga.js.org
 *	https://facebook.github.io/immutable-js/
+
 
 ******************************************************************************************
 ## 20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
