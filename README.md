@@ -681,16 +681,6 @@ npm start
 npm install tachyons
 ```
 
-Website for fonts download:
-*	http://www.cufonfonts.com/en
-
-
-Reference websites:
-*	https://reactjs.org/docs/react-component.html
-*	https://jsonplaceholder.typicode.com/
-*	http://atomicdesign.bradfrost.com/
-*	https://robohash.org
-
 Action --> Reducer --> Store --> Make changes
 
 ```
@@ -700,6 +690,14 @@ npm install redux-logger
 npm install redux-thunk
 ```
 
+Reference websites:
+*	Fonts: http://www.cufonfonts.com/en
+*	https://reactjs.org/docs/react-component.html
+*	https://jsonplaceholder.typicode.com/
+*	http://atomicdesign.bradfrost.com/
+*	https://robohash.org
+*	CSS styles: https://tachyons.io/docs/elements/forms/
+*	Service workers: https://developers.google.com/web/fundamentals/primers/service-workers/
 
 *	https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 *	https://reacttraining.com/react-router/
