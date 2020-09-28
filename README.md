@@ -700,6 +700,7 @@ Reference websites:
 *	Service workers: https://developers.google.com/web/fundamentals/primers/service-workers/
 *	Fragments: https://blog.logrocket.com/rendering-sibling-elements-react-fragments/
 *	Handling Events: https://reactjs.org/docs/handling-events.html
+*	Font-face: https://css-tricks.com/snippets/css/using-font-face/
 
 *	https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 *	https://reacttraining.com/react-router/
@@ -715,7 +716,6 @@ Reference websites:
 *	https://github.com/reactjs/reselect
 *	https://redux-saga.js.org
 *	https://facebook.github.io/immutable-js/
-
 
 ******************************************************************************************
 ## 20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
