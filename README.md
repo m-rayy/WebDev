@@ -699,6 +699,7 @@ Reference websites:
 *	CSS styles: https://tachyons.io/docs/elements/forms/
 *	Service workers: https://developers.google.com/web/fundamentals/primers/service-workers/
 *	Fragments: https://blog.logrocket.com/rendering-sibling-elements-react-fragments/
+*	Handling Events: https://reactjs.org/docs/handling-events.html
 
 *	https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 *	https://reacttraining.com/react-router/
