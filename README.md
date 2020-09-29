@@ -703,6 +703,7 @@ Reference websites:
 *	Font-face: https://css-tricks.com/snippets/css/using-font-face/
 *	JSON placeholder for users: https://jsonplaceholder.typicode.com/users
 * 	Component lifecycle: https://reactjs.org/docs/react-component.html
+*   Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 *	https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 *	https://reacttraining.com/react-router/
