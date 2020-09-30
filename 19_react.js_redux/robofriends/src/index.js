@@ -7,7 +7,6 @@ import 'tachyons';
 import './App.css';
 
 ReactDOM.render(
-  // Can use React.Fragment here:
   <React.StrictMode>
     <div>
       <App />
