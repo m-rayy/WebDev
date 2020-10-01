@@ -704,6 +704,7 @@ Reference websites:
 *	JSON placeholder for users: https://jsonplaceholder.typicode.com/users
 * 	Component lifecycle: https://reactjs.org/docs/react-component.html
 *   Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+*	GitHub pages for CRA: https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom
 
 *	https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 *	https://reacttraining.com/react-router/
