@@ -693,7 +693,7 @@ npm install redux-thunk
 Reference websites:
 *	Fonts: http://www.cufonfonts.com/en
 *	https://reactjs.org/docs/react-component.html
-*	https://jsonplaceholder.typicode.com/
+*	Test data: https://jsonplaceholder.typicode.com
 *	http://atomicdesign.bradfrost.com/
 *	https://robohash.org
 *	CSS styles: https://tachyons.io/docs/elements/forms/
@@ -726,6 +726,8 @@ Reference websites:
 ******************************************************************************************
 
 *	HTTP messages: https://www.w3schools.com/tags/ref_httpmessages.asp
+*	Test site: http://example.com/
+
 
 
 ******************************************************************************************
