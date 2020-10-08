@@ -727,7 +727,7 @@ Reference websites:
 
 *	HTTP messages: https://www.w3schools.com/tags/ref_httpmessages.asp
 *	Test site: http://example.com/
-
+*	ECMAScript new features list: https://github.com/daumann/ECMAScript-new-features-list
 
 
 ******************************************************************************************
