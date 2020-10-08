@@ -747,9 +747,15 @@ Star Wars API & its clones:
 *	https://pokeapi.co/
 *	http://open-notify.org/Open-Notify-API/ISS-Location-Now/ (gives you the coordinates to where the international space station is!)
 
+Other example APIs:
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
 *	https://apilist.fun
+*	https://public-apis.xyz/
+
+TODO - Speech Recognition Challenge:
+*	https://github.com/zero-to-mastery/Coding_Challenge-3
+*	https://www.ibm.com/watson/services/speech-to-text/
 
 
 ******************************************************************************************
