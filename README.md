@@ -753,14 +753,17 @@ Other example APIs:
 *	https://apilist.fun
 *	https://public-apis.xyz/
 
+TODO - Exercise (game):
+*	https://play.elevatorsaga.com/
+
 TODO - Speech Recognition Challenge:
 *	https://github.com/zero-to-mastery/Coding_Challenge-3
 *	https://www.ibm.com/watson/services/speech-to-text/
 
 
+
 ******************************************************************************************
 ## 23.	__FINAL PROJECT: SmartBrain Front-End__
-
 
 Animated objects library:
 *	https://www.npmjs.com/package/react-tilt
@@ -786,6 +789,7 @@ Image and video recognition:
 	```
 Icons library:
 *	https://icons8.com/icon
+
 
 ******************************************************************************************
 ## 24.	__Node.js + Express.js__
