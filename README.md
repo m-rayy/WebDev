@@ -734,9 +734,19 @@ Reference websites:
 ## 21.	__Backend Basics__
 ******************************************************************************************
 
+
 ******************************************************************************************
 ## 22. __APIs__
 ******************************************************************************************
+
+Star Wars API & its clones:
+*	http://swapi.py4e.com/
+*	https://swapi.dev/
+*	http://numbersapi.com/#42
+*	https://api.chucknorris.io/
+*	https://pokeapi.co/
+*	http://open-notify.org/Open-Notify-API/ISS-Location-Now/ (gives you the coordinates to where the international space station is!)
+
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
 *	https://apilist.fun
