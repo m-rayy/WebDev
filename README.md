@@ -761,7 +761,6 @@ TODO - Speech Recognition Challenge:
 *	https://www.ibm.com/watson/services/speech-to-text/
 
 
-
 ******************************************************************************************
 ## 23.	__FINAL PROJECT: SmartBrain Front-End__
 
@@ -776,7 +775,9 @@ Background patterns:
 
 
 Animated background library:
+*	https://vincentgarreau.com/particles.js/
 *	https://particles.matteobruni.it/
+*	https://www.npmjs.com/package/react-particles-js
 
 	```
 	npm install react-particles-js
@@ -787,7 +788,7 @@ Image and video recognition:
 	```
 	npm install clarifai
 	```
-Icons library:
+("Royalty Free") Icons library:
 *	https://icons8.com/icon
 
 
