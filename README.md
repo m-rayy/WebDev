@@ -1,7 +1,7 @@
 # Complete-Web-Developer-Manual
 
 
-All resources and notes from the Complete Web Developer in 2020: Zero to Mastery course
+All resources and notes from the Complete Web Developer: Zero to Mastery course
 
 Official resources:
 https://zerotomastery.io/resources/
@@ -788,8 +788,22 @@ Image and video recognition:
 	```
 	npm install clarifai
 	```
+Whenever you work with a 3rd party API, you always have to be aware that their documentation page sometimes changes.
+Part of your job as a developer is to stay on top of these changes and adapt to any updates that they may have.
+This is why the more dependencies you have in your projects, the more likely it is for your project to break or need updating.
+For now, I have added the API docs and information that you will need the rest of this project so you can always use them as a reference:
+*	Face Detection model we will be using: https://www.clarifai.com/models/face-detection
+*	How we will use the API with JS: https://docs.clarifai.com/api-guide/predict/images
+
 ("Royalty Free") Icons library:
 *	https://icons8.com/icon
+
+TODO - Advanced setState():
+*	https://reactjs.org/docs/react-component.html#setstate
+
+Gitlab repos:
+*	FE: https://github.com/aneagoie/face-recognition-brain
+*	BE: https://github.com/aneagoie/face-recognition-brain-api
 
 
 ******************************************************************************************
