@@ -809,6 +809,9 @@ Gitlab repos:
 ******************************************************************************************
 ## 24.	__Node.js + Express.js__
 
+References:
+*	JS Robotics: http://johnny-five.io/
+
 Install Postman:
 *	https://www.getpostman.com/apps
 

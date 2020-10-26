@@ -1,0 +1,8 @@
+// In node, window === global
+
+// In ES2020: globalThis introduced to access window outside of a browser
+// This allows for unified variables between platforms/systems
+// Test in browser: globalThis === window
+// > True
+
+

@@ -1,0 +1,4 @@
+~/workspace/m-rayy/WebDev/24_Node.js_Express.js/01_script.js 💀 node script.js 
+> 9
+
+Note: always runs process.exit at the end of script
