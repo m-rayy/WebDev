@@ -816,15 +816,17 @@ Install Postman:
 *	https://www.getpostman.com/apps
 
 Express.js:
+*	Back End Framework rankings: https://2019.stateofjs.com/back-end/
+*	https://expressjs.com/en/starter/hello-world.html
 *	https://expressjs.com/en/api.html
 
 
-(Getting start guide)
+(Getting started guide)
 
 ```
-npm install body-parser
+npm install nodemon --save-dev
 npm install express --save
-npm install --save-dev nodemon
+npm install body-parser
 ```
 
 Node.js Reference websites:
