@@ -580,10 +580,16 @@ git remote -v
 Or alternatively try this:
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
 
-
 Resources (Contributing to Open Source):
 *	https://github.com/zero-to-mastery
-*	https://github.com/zero-to-mastery/start-here-guidelines*	
+*	https://github.com/zero-to-mastery/start-here-guidelines	
+
+Update:
+Recently Github has decided to rename the original branch from `master` to `main`.
+If you want to find out the reason why they did this, you can read about it [here](https://github.com/github/renaming) (`main` is less offensive than `master`).
+
+For this reason, for any new Github repositories created from now on (old ones will stay the same with `master` as the `main` branch),
+you will have to use `main` instead of `master`.
 
 
 ******************************************************************************************
