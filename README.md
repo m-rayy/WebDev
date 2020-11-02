@@ -311,6 +311,10 @@ Free Design resources:
 ## 10.	__Career Of A Web Developer__
 ******************************************************************************************
 
+TODO - The Real Web Developer Roadmap:
+*	Part 1: https://www.youtube.com/watch?v=57GuRoJ5Bfw
+*	Part 2: https://www.youtube.com/watch?v=aeKQy_08fpk
+
 TODO:
 *	Create personal website
 *	Work on 1~2 Big Projects
