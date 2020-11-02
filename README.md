@@ -608,7 +608,6 @@ Install node and npm:
 *	https://nodejs.org/en/
 *	https://docs.npmjs.com/try-the-latest-stable-version-of-npm
 *	Version calculator: https://semver.npmjs.com/
-*	
 
 Initialise npm (create package.json file in project)
 ```
