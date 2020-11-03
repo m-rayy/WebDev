@@ -1,0 +1,14 @@
+psql (13.0)
+Type "help" for help.
+
+test=# CREATE TABLE users (name text, age smallint, birthday date);
+CREATE TABLE
+
+test=# \d
+        List of relations
+ Schema | Name  | Type  | Owner  
+--------+-------+-------+--------
+ public | users | table | CF29UH
+(1 row)
+
+test=# \q (to exit terminal)
