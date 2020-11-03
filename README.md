@@ -978,6 +978,7 @@ app.use(cors());
 Install PostgreSQL:
 
 *	http://www.psequel.com/
+*	Although I use PSequel GUI in my videos in this section, I recommend using https://dbeaver.io/ which is open source and works on both Mac and Windows machines.
 
 	en el terminal:
 	```zsh
@@ -1044,6 +1045,8 @@ Create a table:
 	create table Friends.test( firstname CHAR(15), lastname CHAR(20));
 
 	create table Friends.login(id serial not null primary key, secret varchar (100) not null, name text unique not null, entries bigint default 0, joined timestamp not null);
+
+	For more info on Data Types: https://www.techonthenet.com/postgresql/datatypes.php
 
 Show all information of a table:
 
