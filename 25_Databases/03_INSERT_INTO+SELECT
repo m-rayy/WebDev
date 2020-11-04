@@ -1,0 +1,102 @@
+psql 'test'
+
+test=# \dt (list of relations)
+        List of relations
+ Schema | Name  | Type  | Owner  
+--------+-------+-------+--------
+ public | users | table | CF29UH
+(1 row)
+
+test=# \d users
+                 Table "public.users"
+  Column  |   Type   | Collation | Nullable | Default 
+----------+----------+-----------+----------+---------
+ name     | text     |           |          | 
+ age      | smallint |           |          | 
+ birthday | date     |           |          | 
+
+Template:
+test=# INSERT INTO table_name (column_1, column_2, column_3) VALUES (value_1, 'value_2', value_3);
+
+test=# INSERT INTO users (name, age, birthday) VALUES ('M-Ray', 1, '2020-10-30');
+INSERT 0 1
+
+test=# \d
+        List of relations
+ Schema | Name  | Type  | Owner  
+--------+-------+-------+--------
+ public | users | table | CF29UH
+(1 row)
+
+test=# SELECT name, age, birthday FROM users;
+test=# SELECT * FROM users;
+ name  | age |  birthday  
+-------+-----+------------
+ M-Ray |   1 | 2020-10-30
+(1 row)
+
+test=# INSERT INTO users (name, age, birthday) VALUES ('Emre', 33, '1987-08-05');
+INSERT 0 1
+
+test=# INSERT INTO users (name, age, birthday) VALUES ('Kyle', 20, '2000-01-01');
+INSERT 0 1
+
+test=# SELECT * FROM users;
+ name  | age |  birthday  
+-------+-----+------------
+ M-Ray |   1 | 2020-10-30
+ Emre  |  33 | 1987-08-05
+ Kyle  |  20 | 2000-01-01
+(2 rows)
+
+Template:
+test=# ALTER TABLE table_name ADD column datatype;
+
+test=# ALTER TABLE users ADD score smallint;
+ALTER TABLE
+
+test=# SELECT * FROM users;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ M-Ray |   1 | 2020-10-30 |      
+ Emre  |  33 | 1987-08-05 |
+ Kyle  |  20 | 2000-01-01 |       
+(2 rows)
+
+Template:
+test=# UPDATE table_name
+test=# SET some_column = some_value
+test=# WHERE some_column = some_value;
+
+test=# UPDATE users SET score = 50 WHERE name = 'M-Ray';
+UPDATE 1
+
+test=# SELECT * FROM users;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ Emre  |  33 | 1987-08-05 |      
+ M-Ray |   1 | 2020-10-30 |    50
+ Kyle  |  20 | 2000-01-01 | 
+(2 rows)
+
+test=# UPDATE users SET score = 100 WHERE name = 'Emre' AND name = 'Kyle';
+UPDATE 0
+
+test=# SELECT * FROM users;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ Emre  |  33 | 1987-08-05 |      
+ M-Ray |   1 | 2020-10-30 |    50
+ Kyle  |  20 | 2000-01-01 | 
+(2 rows)
+
+test=# UPDATE users SET score = 100 WHERE name = 'Emre' OR name = 'Kyle';
+UPDATE 2
+
+test=# SELECT * FROM users;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ M-Ray |   1 | 2020-10-30 |    50
+ Emre  |  33 | 1987-08-05 |   100
+ Kyle  |  20 | 2000-01-01 |   100
+(3 rows)

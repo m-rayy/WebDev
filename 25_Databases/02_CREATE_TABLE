@@ -1,5 +1,10 @@
+psql 'test'
+
 psql (13.0)
 Type "help" for help.
+
+Template:
+test=# CREATE TABLE table_name (column_1 data_type,  column_3 data_type, column_4 data_type);
 
 test=# CREATE TABLE users (name text, age smallint, birthday date);
 CREATE TABLE
