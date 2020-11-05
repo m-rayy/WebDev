@@ -1132,6 +1132,10 @@ Enter to a database with a different user:
 
 	psql -h localhost -d nombre_base -U nombre_usuario
 
+TODO - SQL Exercises:
+*	https://www.khanacademy.org/computing/computer-programming/sql
+*	https://www.codecademy.com/learn/learn-sql
+
 
 ******************************************************************************************
 ## 27.	__FINAL PROJECT: SmartBrain Back-End – Database__
