@@ -1,0 +1,51 @@
+psql 'test'
+
+test=# CREATE TABLE login (
+test(#     ID serial NOT NULL PRIMARY KEY,
+test(#     secret VARCHAR (100) NOT NULL,
+test(#     name text UNIQUE NOT NULL
+test(# );
+CREATE TABLE
+
+test=# INSERT INTO login (secret, name) VALUES ('abc', 'M-Ray');
+INSERT 0 1
+
+test=# INSERT INTO login (secret, name) VALUES ('xyz', 'Mert');
+INSERT 0 1
+
+test=# INSERT INTO login (secret, name) VALUES ('666', 'Emre');
+INSERT 0 1
+
+test=# SELECT * FROM login;
+ id | secret | name  
+----+--------+-------
+  1 | abc    | M-Ray
+  2 | xyz    | Mert
+  3 | 666    | Emre
+(3 rows)
+
+test=# INSERT INTO login (secret, name) VALUES ('xyz', 'Mert');
+ERROR:  duplicate key value violates unique constraint "login_name_key"
+DETAIL:  Key (name)=(Mert) already exists.
+
+test=# INSERT INTO login (secret, name) VALUES ('000', 'Kyle');
+INSERT 0 1
+test=# SELECT * FROM login;
+ id | secret | name  
+----+--------+-------
+  1 | abc    | M-Ray
+  2 | xyz    | Mert
+  3 | 666    | Emre
+  5 | 000    | Kyle
+(4 rows)
+
+Notice that id 4 was assigned and failed, next id of 5 given to Kyle
+
+test=# SELECT * FROM users JOIN login ON users.name = login.name;
+ name  | age |  birthday  | score | id | secret | name  
+-------+-----+------------+-------+----+--------+-------
+ M-Ray |   1 | 2020-10-30 |    50 |  1 | abc    | M-Ray
+ Emre  |  33 | 1987-08-05 |   100 |  3 | 666    | Emre
+ Kyle  |  20 | 2000-01-01 |   100 |  5 | 000    | Kyle
+ Mert  |  28 | 1994-09-26 |    88 |  2 | xyz    | Mert
+(4 rows)

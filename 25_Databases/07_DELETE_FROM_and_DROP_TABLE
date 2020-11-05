@@ -1,0 +1,30 @@
+psql 'test'
+
+test=# SELECT * FROM users;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ M-Ray |   1 | 2020-10-30 |    50
+ Emre  |  33 | 1987-08-05 |   100
+ Kyle  |  20 | 2000-01-01 |   100
+ Mert  |  28 | 1994-09-26 |    88
+(4 rows)
+
+test=# DELETE FROM users WHERE name = 'Kyle';
+DELETE 1
+
+test=# SELECT * FROM users;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ M-Ray |   1 | 2020-10-30 |    50
+ Emre  |  33 | 1987-08-05 |   100
+ Mert  |  28 | 1994-09-26 |    88
+(3 rows)
+
+test=# DROP TABLE login;
+DROP TABLE
+
+test=# DROP TABLE users;
+DROP TABLE
+
+test=# \d
+Did not find any relations.
