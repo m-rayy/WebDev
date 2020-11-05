@@ -1,0 +1,38 @@
+psql 'test'
+
+test=# INSERT INTO users (name, age, birthday, score) VALUES ('Mert', 28, '1994-09-26', 88);
+INSERT 0 1.
+
+test=# SELECT * FROM users WHERE name LIKE 'M%';
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ M-Ray |   1 | 2020-10-30 |    50
+ Mert  |  28 | 1994-09-26 |    88
+(2 rows)
+
+test=# select * from users where name like '%y';
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ M-Ray |   1 | 2020-10-30 |    50
+(1 row)
+
+test=# SELECT * FROM users ORDER BY score DESC;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ Emre  |  33 | 1987-08-05 |   100
+ Kyle  |  20 | 2000-01-01 |   100
+ Mert  |  28 | 1994-09-26 |    88
+ M-Ray |   1 | 2020-10-30 |    50
+(4 rows)
+
+
+test=# SELECT * FROM users ORDER BY score ASC;
+ name  | age |  birthday  | score 
+-------+-----+------------+-------
+ M-Ray |   1 | 2020-10-30 |    50
+ Mert  |  28 | 1994-09-26 |    88
+ Emre  |  33 | 1987-08-05 |   100
+ Kyle  |  20 | 2000-01-01 |   100
+(4 rows)
+
+
