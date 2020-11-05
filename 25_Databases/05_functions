@@ -1,0 +1,19 @@
+psql 'test'
+
+test=# SELECT AVG(score) FROM users;
+         avg         
+---------------------
+ 84.5000000000000000
+(1 row)
+
+test=# SELECT SUM(age) FROM users;
+ sum 
+-----
+  82
+(1 row)
+
+test=# SELECT COUNT(name) FROM users;
+ count 
+-------
+     4
+(1 row)

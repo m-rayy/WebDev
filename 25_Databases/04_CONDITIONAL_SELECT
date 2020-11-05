@@ -25,7 +25,6 @@ test=# SELECT * FROM users ORDER BY score DESC;
  M-Ray |   1 | 2020-10-30 |    50
 (4 rows)
 
-
 test=# SELECT * FROM users ORDER BY score ASC;
  name  | age |  birthday  | score 
 -------+-----+------------+-------
@@ -34,5 +33,3 @@ test=# SELECT * FROM users ORDER BY score ASC;
  Emre  |  33 | 1987-08-05 |   100
  Kyle  |  20 | 2000-01-01 |   100
 (4 rows)
-
-
