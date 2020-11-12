@@ -879,8 +879,15 @@ npm install bcrypt-nodejs
 *	https://www.npmjs.com/package/argon2
 
 
+Note: bcrypt-nodejs is no longer actively maintained. Please use bcrypt or bcryptjs.
+See https://github.com/kelektiv/node.bcrypt.js/wiki/bcrypt-vs-brypt.js to learn more about these two options
+
+"While bcrypt.js has the same API surface on the JS side; it does not actually implement background work in the same way as the c++ bindings.
+The c++ bindings use a background thread pool while bcrypt.js will block your main thread pool.
+
+This may have implications for your services so make sure you understand what you are doing and how it will impact your services before switching dependencies."
 ```
-$ npm install bcrypt
+npm install bcrypt
 ```
 
 ```jsx
