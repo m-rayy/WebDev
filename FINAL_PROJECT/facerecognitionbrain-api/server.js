@@ -1,4 +1,5 @@
 const express = require('express');
+const bcrypt = require('bcryptjs');
 
 /*
 API plan:
@@ -18,7 +19,6 @@ const database = {
             id: '123',
             name: 'John',
             email: 'john@gmail.com',
-            password: 'cookies',
             entries: 0,
             joined: new Date()
         },
@@ -26,9 +26,15 @@ const database = {
             id: '124',
             name: 'Sally',
             email: 'sally@gmail.com',
-            password: 'bananas',
             entries: 0,
             joined: new Date()
+        }
+    ],
+    login: [
+        {
+            id: '987',
+            hash: '',
+            email: 'john@gmail.com'
         }
     ]
 }
@@ -41,6 +47,9 @@ app.get('/', (req, res)=> {
 
 // /signin --> POST = success/fail (over HTTPS, passwords not shared with middleware)
 app.post('/signin', (req, res)=> {
+    // bcrypt.compare('ballz', '$2a$08$ESlcks2IjdjjxQyIQkXAsuRQH.n7zGerhdDDY263lxaRlCokMiU5S', function(err, hash) {
+    //     console.log(hash);
+    // });
     // .json() has more features compared to .send()
     if (req.body.email == database.users[0].email &&
         req.body.password == database.users[0].password) {
@@ -53,6 +62,9 @@ app.post('/signin', (req, res)=> {
 // /register --> POST = user
 app.post('/register', (req, res)=> {
     const { name, email, password } = req.body;
+    // bcrypt.hash(password, 8, function(err, hash) {
+    //     console.log(hash);
+    // });
     database.users.push({
         id: '125',
         name: name,
