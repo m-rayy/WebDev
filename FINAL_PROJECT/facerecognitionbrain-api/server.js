@@ -1,5 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
+const cors = require('cors');
 
 /*
 API plan:
@@ -12,6 +13,7 @@ API plan:
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 const database = {
     users: [
@@ -19,6 +21,7 @@ const database = {
             id: '123',
             name: 'John',
             email: 'john@gmail.com',
+            password: 'cookies',
             entries: 0,
             joined: new Date()
         },
@@ -26,6 +29,7 @@ const database = {
             id: '124',
             name: 'Sally',
             email: 'sally@gmail.com',
+            password: 'apples',
             entries: 0,
             joined: new Date()
         }
