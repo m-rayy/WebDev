@@ -1000,6 +1000,8 @@ Read about it more at MDN's great resource [here](https://developer.mozilla.org/
 
 Front-end:
 
+* [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
 ```Javascript
 fetch('http://localhost:3000/image', {
 	method: 'put',
@@ -1019,6 +1021,7 @@ Back-end:
 const cors = require('cors')
 app.use(cors());
 ```
+
 
 ******************************************************************************************
 ## 26.	__Databases__
