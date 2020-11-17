@@ -1,6 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const cors = require('cors');
+const knex = require('knex');
 
 /*
 API plan:
@@ -10,6 +11,22 @@ API plan:
 /profile/:userId --> GET = user
 /image --> PUT --> user (update rank)
 */
+
+const db = knex({
+    client: 'pg',
+    connection: {
+        // localhost:  
+        host : '127.0.0.1',
+        user : '',
+        password : '',
+        database : 'facerecogbrain'
+    }
+});
+
+// Test postgres db:
+db.select('*').from('users').then(data => {
+    console.log(data);
+});
 
 const app = express();
 app.use(express.json());
@@ -67,16 +84,21 @@ app.post('/signin', (req, res)=> {
 // /register --> POST = user
 app.post('/register', (req, res)=> {
     const { name, email, password } = req.body;
+    db('users').insert({
+        name: name,
+        email: email,
+        joined: new Date()
+    }).then(console.log)
     // bcrypt.hash(password, 8, function(err, hash) {
     //     console.log(hash);
     // });
-    database.users.push({
-        id: '125',
-        name: name,
-        email: email,
-        entries: 0,
-        joined: new Date()
-    })
+    // database.users.push({
+    //     id: '125',
+    //     name: name,
+    //     email: email,
+    //     entries: 0,
+    //     joined: new Date()
+    // })
     res.json(database.users[database.users.length-1])
 })
 

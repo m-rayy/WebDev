@@ -1,0 +1,27 @@
+createdb 'facerecognitonbrain'
+
+psql 'facerecognitonbrain'
+psql (13.0)
+Type "help" for help.
+
+facerecognitonbrain=# CREATE TABLE users (id SERIAL PRIMARY KEY, name VARCHAR(100), email text UNIQUE NOT NULL, entries BIGINT DEFAULT 0, joined TIMESTAMP NOT NULL);
+
+facerecognitonbrain=# CREATE TABLE login (id SERIAL PRIMARY KEY, hash VARCHAR(100), email text UNIQUE NOT NULL);
+
+# After registering from FE:
+
+facerecogbrain=# \d
+             List of relations
+ Schema |     Name     |   Type   | Owner  
+--------+--------------+----------+--------
+ public | login        | table    | CF29UH
+ public | login_id_seq | sequence | CF29UH
+ public | users        | table    | CF29UH
+ public | users_id_seq | sequence | CF29UH
+(4 rows)
+
+facerecogbrain=# SELECT * FROM users;
+ id | name  |      email       | entries |         joined          
+----+-------+------------------+---------+-------------------------
+  1 | M-Ray | egunes@gmail.com |       0 | 2020-11-17 07:44:23.335
+(1 row)

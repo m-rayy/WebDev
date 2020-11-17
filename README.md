@@ -1192,11 +1192,11 @@ TODO - SQL Exercises:
 ******************************************************************************************
 ## 27.	__FINAL PROJECT: SmartBrain Back-End – Database__
 
-
-Tool for db connection with back-end:
+Tools for db connection with back-end:
 *	https://knexjs.org/
 *	https://knexjs.org/#Installation-node
 *	https://github.com/vitaly-t/pg-promise
+
 
 ******************************************************************************************
 ## 28.	__Production + Deployment__
