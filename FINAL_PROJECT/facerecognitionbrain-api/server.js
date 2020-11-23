@@ -24,9 +24,9 @@ const db = knex({
 });
 
 // Test postgres db:
-db.select('*').from('users').then(data => {
-    console.log(data);
-});
+// db.select('*').from('users').then(data => {
+//     console.log(data);
+// });
 
 const app = express();
 app.use(express.json());
@@ -84,11 +84,17 @@ app.post('/signin', (req, res)=> {
 // /register --> POST = user
 app.post('/register', (req, res)=> {
     const { name, email, password } = req.body;
-    db('users').insert({
+    db('users')
+    .returning('*')
+    .insert({
         name: name,
         email: email,
         joined: new Date()
-    }).then(console.log)
+    })
+    .then(user => {
+        res.json(user[0])
+    })
+    .catch(err => res.status(400).json('Unable to register user'))
     // bcrypt.hash(password, 8, function(err, hash) {
     //     console.log(hash);
     // });
@@ -99,22 +105,33 @@ app.post('/register', (req, res)=> {
     //     entries: 0,
     //     joined: new Date()
     // })
-    res.json(database.users[database.users.length-1])
 })
 
 // /profile/:userId --> GET = user
 app.get('/profile/:id', (req, res)=> {
     const { id } = req.params;
-    let found = false;
-    database.users.forEach(user => {
-        if (user.id === id) {
-            found = true;
-            return res.json(user);
+    // let found = false
+    db.select('*')
+    .from('users')
+    // .where({id: id})
+    .where({id})
+    .then(user => {
+        if (user.length) {
+            res.json(user[0])
+        } else {
+            res.status(400).json('User not found')
         }
     })
-    if (!found) {
-        res.status(404).json('not found');
-    }
+    .catch(err => res.status(400).json('Error getting user'))
+    // database.users.forEach(user => {
+    //     if (user.id === id) {
+    //         found = true;
+    //         return res.json(user);
+    //     }
+    // })
+    // if (!found) {
+    //     res.status(404).json('not found');
+    // }
 })
 
 // /image --> PUT --> user (update rank)

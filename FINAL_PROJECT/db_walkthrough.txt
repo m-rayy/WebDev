@@ -1,12 +1,12 @@
-createdb 'facerecognitonbrain'
+createdb 'facerecogbrain'
 
-psql 'facerecognitonbrain'
+psql 'facerecogbrain'
 psql (13.0)
 Type "help" for help.
 
-facerecognitonbrain=# CREATE TABLE users (id SERIAL PRIMARY KEY, name VARCHAR(100), email text UNIQUE NOT NULL, entries BIGINT DEFAULT 0, joined TIMESTAMP NOT NULL);
+facerecogbrain=# CREATE TABLE users (id SERIAL PRIMARY KEY, name VARCHAR(100), email text UNIQUE NOT NULL, entries BIGINT DEFAULT 0, joined TIMESTAMP NOT NULL);
 
-facerecognitonbrain=# CREATE TABLE login (id SERIAL PRIMARY KEY, hash VARCHAR(100), email text UNIQUE NOT NULL);
+facerecogbrain=# CREATE TABLE login (id SERIAL PRIMARY KEY, hash VARCHAR(100), email text UNIQUE NOT NULL);
 
 # After registering from FE:
 
