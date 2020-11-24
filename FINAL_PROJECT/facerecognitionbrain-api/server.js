@@ -168,7 +168,6 @@ app.get('/profile/:id', (req, res)=> {
 
 // /image --> PUT --> user (update rank)
 app.put('/image', (req, res)=> {
-    // TODO: last image always pre-loaded despite user changes
     const { id } = req.body;
     db('users')
     .where('id', '=', id)

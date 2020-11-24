@@ -27,23 +27,39 @@ const ClarifaiApp = new Clarifai.App({
  apiKey: '9e909660143244e98334f056c09f2d3b'
 });
 
+const initialState = {
+  input: '',
+  imageURL: '',
+  box: {},
+  route: 'signin',
+  isSignedIn: false,
+  user: {
+    id: '',
+    name: '',
+    email: '',
+    entries: 0,
+    joined: ''
+  }
+}
+
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      input: '',
-      imageURL: '',
-      box: {},
-      route: 'signin',
-      isSignedIn: false,
-      user: {
-        id: '',
-        name: '',
-        email: '',
-        entries: 0,
-        joined: ''
-      }
-    }
+    this.state = initialState
+    // this.state = {
+    //   input: '',
+    //   imageURL: '',
+    //   box: {},
+    //   route: 'signin',
+    //   isSignedIn: false,
+    //   user: {
+    //     id: '',
+    //     name: '',
+    //     email: '',
+    //     entries: 0,
+    //     joined: ''
+    //   }
+    // }
   }
 
   // To check if server mounted:
@@ -108,6 +124,7 @@ class App extends Component {
           // Better alternative with Object.assign():
             this.setState(Object.assign(this.state.user, {entries: count}))
         })
+        .catch(err => console.log(err));
       }
       this.displayFaceBox(this.calculateFaceLocation(response), 'put')
     })
@@ -116,7 +133,7 @@ class App extends Component {
 
   onRouteChange = (route) => {
     if (route === 'signout') {
-      this.setState({isSignedIn: false})
+      this.setState(initialState)
     } else if (route === 'home') {
       this.setState({isSignedIn: true})
     }
