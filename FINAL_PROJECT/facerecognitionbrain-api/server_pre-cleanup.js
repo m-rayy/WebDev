@@ -124,7 +124,6 @@ app.post('/register', (req, res)=> {
             .then(trx.commit)
             .catch(trx.rollback)
             // TODO: signs in despite duplicate register fail
-            // TODO: signout redirects to register
         })
         .catch(err => res.status(400).json('Unable to register user'))
     // bcrypt.hash(password, 8, function(err, hash) {
@@ -168,7 +167,7 @@ app.get('/profile/:id', (req, res)=> {
 
 // /image --> PUT --> user (update rank)
 app.put('/image', (req, res)=> {
-    // TODO: last image always pre-loaded despite user changes
+    // TODO: image recognition fails - api is down / test once up again!
     const { id } = req.body;
     db('users')
     .where('id', '=', id)
