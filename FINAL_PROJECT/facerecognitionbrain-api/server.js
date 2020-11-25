@@ -3,6 +3,11 @@ const bcrypt = require('bcryptjs');
 const cors = require('cors');
 const knex = require('knex');
 
+const register = require('./controllers/register');
+const signin = require('./controllers/signin');
+const profile = require('./controllers/profile');
+const image = require('./controllers/image');
+
 /*
 API plan:
 / --> res = this is working
@@ -32,6 +37,43 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// / --> res = this is working
+app.get('/', (req, res)=> {
+    // res.json('this is working');
+    res.json(database.users);
+})
+
+// /signin --> POST = success/fail (over HTTPS, passwords not shared with middleware)
+app.post('/signin', signin.handleSignin(db, bcrypt))
+    // app.post('/signin', (req, res) => {
+    //     signin.handleSignin(req, res, db, bcrypt)
+    // })
+
+// /register --> POST = user
+// TODO: signs in despite duplicate register fail
+// TODO: signout redirects to register
+app.post('/register', register.handleRegister(db, bcrypt))
+    // app.post('/register', (req, res) => {
+    //     register.handleRegister(req, res, db, bcrypt)
+    // })
+
+// /profile/:userId --> GET = user
+app.get('/profile/:id', profile.handleProfile(db))
+    // app.get('/profile/:id', (req, res) => {
+    //     profile.handleProfile(req, res, db)
+    // })
+
+// /image --> PUT --> user (update rank)
+app.put('/image', image.handleImage(db))
+    // app.put('/image', (req, res) => {
+    //     image.handleImage(req, res, db)
+    // })
+
+app.listen(3000, ()=> {
+    console.log('app is running on port 3000')
+})
+
+// v1.0 db:
 // const database = {
 //     users: [
 //         {
@@ -59,139 +101,3 @@ app.use(cors());
 //         }
 //     ]
 // }
-
-// / --> res = this is working
-app.get('/', (req, res)=> {
-    // res.json('this is working');
-    res.json(database.users);
-})
-
-// /signin --> POST = success/fail (over HTTPS, passwords not shared with middleware)
-app.post('/signin', (req, res)=> {
-    db.select('email', 'hash').from('login')
-        .where('email', '=', req.body.email)
-        .then(data => {
-            const isValid = bcrypt.compareSync(req.body.password, data[0].hash);
-            if (isValid) {
-                return db.select('*').from('users')
-                .where('email', '=', req.body.email)
-                .then(user => {
-                    res.json(user[0])
-                })
-                .catch(err => res.status(400).json('Unable to get user'))
-            } else {
-                res.status(400).json('Incorrect signin credentials')
-            }
-        })
-        .catch(err => res.status(400).json('Unable to signin'))
-    // bcrypt.compare('ballz', '$2a$08$ESlcks2IjdjjxQyIQkXAsuRQH.n7zGerhdDDY263lxaRlCokMiU5S', function(err, hash) {
-    //     console.log(hash);
-    // });
-    // .json() has more features compared to .send()
-    // if (req.body.email == database.users[0].email &&
-    //     req.body.password == database.users[0].password) {
-    //     // res.json('success');
-    //     res.json(database.users[0])
-    // } else {
-    //     res.status(400).json('error logging in');
-    // }
-})
-
-
-// /register --> POST = user
-app.post('/register', (req, res)=> {
-    const { name, email, password } = req.body;
-    const hash = bcrypt.hashSync(password, 8);
-        db.transaction(trx => {
-            trx.insert({
-                hash: hash,
-                email: email
-            })
-            .into('login')
-            .returning('email')
-            .then(loginEmail => {
-                return trx('users')
-                    .returning('*')
-                    .insert({
-                        name: name,
-                        email: loginEmail[0],
-                        joined: new Date()
-                    })
-                    .then(user => {
-                        res.json(user[0])
-                    })
-            })
-            .then(trx.commit)
-            .catch(trx.rollback)
-            // TODO: signs in despite duplicate register fail
-            // TODO: signout redirects to register
-        })
-        .catch(err => res.status(400).json('Unable to register user'))
-    // bcrypt.hash(password, 8, function(err, hash) {
-    //     console.log(hash);
-    // });
-    // database.users.push({
-    //     id: '125',
-    //     name: name,
-    //     email: email,
-    //     entries: 0,
-    //     joined: new Date()
-    // })
-})
-
-// /profile/:userId --> GET = user
-app.get('/profile/:id', (req, res)=> {
-    const { id } = req.params;
-    // let found = false
-    db.select('*')
-    .from('users')
-    // .where({id: id})
-    .where({id})
-    .then(user => {
-        if (user.length) {
-            res.json(user[0])
-        } else {
-            res.status(400).json('User not found')
-        }
-    })
-    .catch(err => res.status(400).json('Error getting user'))
-    // database.users.forEach(user => {
-    //     if (user.id === id) {
-    //         found = true;
-    //         return res.json(user);
-    //     }
-    // })
-    // if (!found) {
-    //     res.status(404).json('not found');
-    // }
-})
-
-// /image --> PUT --> user (update rank)
-app.put('/image', (req, res)=> {
-    const { id } = req.body;
-    db('users')
-    .where('id', '=', id)
-    .increment('entries', 1)
-    .returning('entries')
-    .then(entries => {
-        res.json(entries[0])
-    })
-    .catch(err => 
-        res.status(400).json('Unable to get entries')
-    )
-    // let found = false;
-    // database.users.forEach(user => {
-    //     if (user.id === id) {
-    //         found = true;
-    //         user.entries ++
-    //         return res.json(user.entries);
-    //     }
-    // })
-    // if (!found) {
-    //     res.status(404).json('not found');
-    // }
-})
-
-app.listen(3000, ()=> {
-    console.log('app is running on port 3000')
-})

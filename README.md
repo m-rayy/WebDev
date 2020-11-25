@@ -807,6 +807,30 @@ For now, I have added the API docs and information that you will need the rest o
 *	Face Detection model we will be using: https://www.clarifai.com/models/face-detection
 *	How we will use the API with JS: https://docs.clarifai.com/api-guide/predict/images
 
+Sometimes the Clarifai Models can be down or not working as they are constantly getting updated. A good way to check if the model you are using is up, is to check them on the Clarifai website. For example, for the Face Detect Mode: https://www.clarifai.com/models/face-detection. If that isn't working, then that means you will have to wait until their servers are back up. Another solution is to use a different version of their model that works like this one: `c0c0ac362b03416da06ab3fa36fb58e3`.
+
+You will need to adjust from:
+```
+.predict(Clarifai.FACE_DETECT_MODEL, req.body.input)
+```
+to:
+```
+.predict('c0c0ac362b03416da06ab3fa36fb58e3', req.body.input)
+```
+For example:
+```
+const handleApiCall = (req, res) => {
+  app.models
+    // You may have to do this:
+    // .predict(Clarifai.FACE_DETECT_MODEL, req.body.input)
+    .predict('c0c0ac362b03416da06ab3fa36fb58e3', req.body.input)
+    .then(data => {
+      res.json(data);
+    })
+    .catch(err => res.status(400).json('unable to work with API'))
+}
+```
+
 ("Royalty Free") Icons library:
 *	https://icons8.com/icon
 
