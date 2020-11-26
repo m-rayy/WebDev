@@ -64,11 +64,12 @@ app.get('/profile/:id', profile.handleProfile(db))
 
 // /image --> PUT --> user (update rank)
 app.put('/image', image.handleImage(db))
-// app.put('/image', (req, res) => {
+    // app.put('/image', (req, res) => {
     //     image.handleImage(req, res, db)
     // })
-app.post('/imageurl', (req, res) => { image.handleAPICall(req, res) })
-    
+app.post('/imageURL', image.handleAPICall)
+
+
 app.listen(3000, ()=> {
     console.log('app is running on port 3000')
 })

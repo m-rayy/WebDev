@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// TODO - move API to BE (fail):
+import Clarifai from 'clarifai';
 import Particles from 'react-particles-js';
 import Navigation from './components/Navigation/Navigation';
 import SignIn from './components/SignIn/SignIn';
@@ -21,6 +23,12 @@ const particlesOptions = {
     }
   }
 }
+
+// TODO - move API to BE (fail):
+const ClarifaiApp = new Clarifai.App({
+  // Not secure to have API key in FE
+ apiKey: '9e909660143244e98334f056c09f2d3b'
+});
 
 const initialState = {
   input: '',
@@ -97,18 +105,19 @@ class App extends Component {
 
   onImageSubmit = (calculateFaceLocation) => {
     this.setState({imageURL: this.state.input});
-    // ClarifaiApp.models.predict(
-    //   Clarifai.FACE_DETECT_MODEL,
-    //   this.state.input
-    // )
-    fetch('http://localhost:3000/imageurl', {
-      method: 'post',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-          input: this.state.input
-      })
-    })
-    .then(response => response.json())
+    ClarifaiApp.models.predict(
+        Clarifai.FACE_DETECT_MODEL,
+        this.state.input
+    )
+    // TODO - move API to BE (fail):
+    // fetch('http://localhost:3000/imageURL', {
+    //   method: 'post',
+    //   headers: {'Content-Type': 'application/json'},
+    //   body: JSON.stringify({
+    //       input: this.state.input
+    //   })
+    // })
+    // .then(response => response.json())
     .then(response => {
       if (response) {
         fetch('http://localhost:3000/image', {

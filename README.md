@@ -837,9 +837,13 @@ const handleApiCall = (req, res) => {
 TODO - Advanced setState():
 *	https://reactjs.org/docs/react-component.html#setstate
 
-Gitlab repos:
+Gitlab repos (v1.0):
 *	FE: https://github.com/aneagoie/face-recognition-brain
 *	BE: https://github.com/aneagoie/face-recognition-brain-api
+
+Gitlab repose (v2.0):
+https://github.com/aneagoie/smart-brain-api
+https://github.com/aneagoie/smart-brain-api-api
 
 
 ******************************************************************************************
