@@ -841,10 +841,6 @@ Gitlab repos (v1.0):
 *	FE: https://github.com/aneagoie/face-recognition-brain
 *	BE: https://github.com/aneagoie/face-recognition-brain-api
 
-Gitlab repose (v2.0):
-https://github.com/aneagoie/smart-brain-api
-https://github.com/aneagoie/smart-brain-api-api
-
 
 ******************************************************************************************
 ## 24.	__Node.js + Express.js__
@@ -1229,8 +1225,11 @@ Tools for db connection with back-end:
 ******************************************************************************************
 ## 28.	__Production + Deployment__
 
+Gitlab repose (v2.0):
+*	https://github.com/aneagoie/smart-brain-api
+*	https://github.com/aneagoie/smart-brain-api-api
 
-Environmental variables:
+Environmental variables for Windows users:
 *	http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/
 
 ### PORT
