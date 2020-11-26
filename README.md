@@ -1236,8 +1236,8 @@ Environmental variables for Windows users:
 
 On terminal:
 
-	bash
-	-->PORT-3000 node server.js
+	bash/zsh
+	-->PORT=3000 node server.js
 
 On server.js:
 ```JSX
@@ -1251,8 +1251,8 @@ On server.js:
 
 On terminal:
 
-	bash
-	-->DATABASE_URL-123  node server.js
+	bash/zsh
+	-->DATABASE_URL=123  node server.js
 
 On server.js:
 
@@ -1268,18 +1268,16 @@ On server.js:
 On terminal:
 
 	fish
-	-->env DATABASE_URL-‘hello’ node server.js
+	-->env DATABASE_URL=‘hello’ node server.js
 
 Deploy apps:
 
 Heroku:
-
 *	https://www.heroku.com/
 *	https://devcenter.heroku.com/articles/git
 
 Not the best one:
 *	https://www.hostgator.com/promo/snappy60?utm_source=google&utm_medium=brandsearch&kclickid=cfe89874-3c6a-404e-b321-fc3e56f9ec2b&gclid=CjwKCAjwsJ3ZBRBJEiwAtuvtlIkFb-qOw3HN_JpH3AAkmYwKhk_L0y0stl7J1CFRR8FRltvmvhwXPBoCATIQAvD_BwE
-
 
 
 Commands for heroku on backend folder:
@@ -1308,7 +1306,6 @@ heroku logs --tail
 heroku open
 ```
 
-
 Connect to pg database:
 *	https://devcenter.heroku.com/articles/heroku-postgresql
 *	https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
@@ -1322,6 +1319,34 @@ heroku addons
 heroku info
 heroku pg:psql
 ```
+
+Troubleshooting:
+*	For Frontend React code: https://medium.com/quick-code/deploying-production-build-of-react-app-to-heroku-2548d8bf6936
+*	For Backend code: https://devcenter.heroku.com/articles/getting-started-with-nodejs
+
+For example - the below error may be encountered (in the logs):
+```
+nodemon: not found
+```
+
+On Heroku, dev dependencies never get installed. However nodemon is a dev dependency...
+
+If you encounter this problem while following the next video, simply change your start script in your package.json from
+```
+nodemon server.js
+```
+To
+```
+ "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+    .....    
+  },
+```
+and everything should work as expected!
+
+You can read more about this issue here if you are curious: https://stackoverflow.com/questions/56047981/node-js-heroku-deployment-on-mac-sh-1-nodemon-not-found-npm-err-nodemon?newreg=9da4e21fe81a46b9b84711c02166f439
+
 
 ******************************************************************************************
 ## 29.	__Where To Go From Here?__
