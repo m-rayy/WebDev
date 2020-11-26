@@ -50,7 +50,6 @@ app.post('/signin', signin.handleSignin(db, bcrypt))
     // })
 
 // /register --> POST = user
-// TODO: signs in despite duplicate register fail
 // TODO: signout redirects to register
 app.post('/register', register.handleRegister(db, bcrypt))
     // app.post('/register', (req, res) => {
