@@ -1411,6 +1411,15 @@ References:
 ******************************************************************************************
 ## 32.	__Extra Learning: Redux__
 
+Flux pattern (one-way flow) replaced MVC (mono view controller):
+Action -> Dispatcher -> Store -> View
+
+Redux:
+Action -> Reducer -> Store (replace this.state) -> Make Changes (with React)
+
+1 caveat:
+Redux doesn't completely replace this.state, you can use them together.
+
 
 ******************************************************************************************
 ## 33.	__Extra: For Windows Users__
