@@ -1420,6 +1420,14 @@ Action -> Reducer -> Store (replace this.state) -> Make Changes (with React)
 1 caveat:
 Redux doesn't completely replace this.state, you can use them together.
 
+To install:
+```
+npm install redux
+npm install react-redux
+```
+
+There is a Redux Toolkit to avoid some of the "boilerplate code": https://redux-toolkit.js.org/
+
 
 ******************************************************************************************
 ## 33.	__Extra: For Windows Users__
