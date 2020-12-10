@@ -1415,7 +1415,7 @@ Flux pattern (one-way flow) replaced MVC (mono view controller):
 Action -> Dispatcher -> Store -> View
 
 Redux:
-Action -> Reducer -> Store (replace this.state) -> Make Changes (with React)
+Action -Middleware-> Reducer -> Store (replace this.state) -> Make Changes (with React)
 
 1 caveat:
 Redux doesn't completely replace this.state, you can use them together.
@@ -1427,6 +1427,8 @@ npm install react-redux
 ```
 
 There is a Redux Toolkit to avoid some of the "boilerplate code": https://redux-toolkit.js.org/
+
+Project repo: https://github.com/aneagoie/robofriends-redux
 
 
 ******************************************************************************************
