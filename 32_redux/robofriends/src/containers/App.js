@@ -4,37 +4,42 @@ import SearchBox from '../components/SearchBox';
 import CardList from '../components/CardList';
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
-import { setSearchField } from './../actions';
+import { requestRobots, setSearchField } from './../actions';
 
 const mapStateToProps = state => {
     return {
-        // searchField: state.searchRobots.searchField
-        searchField: state.searchField
+        // searchField: state.searchField
+        searchField: state.searchRobots.searchField,
+        isPending: state.requestRobots.isPending,
+        robots: state.requestRobots.robots,
+        error: state.requestRobots.error
     }
 }
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onSearchChange: (event) => dispatch(setSearchField(event.target.value))
+        onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
+        onRequestRobots: () => dispatch(requestRobots())
     }
 }
 
 class App extends Component {
-    constructor() {
-        super()
-        this.state = {
-            // robots: [],
-            // searchfield: ''    
-            robots: []
-        }
-    }
+    // constructor() {
+    //     super()
+    //     this.state = {
+    //         // robots: [],
+    //         // searchfield: ''    
+    //         robots: []
+    //     }
+    // }
 
     componentDidMount() {
         // Check redux store:
         // console.log(this.props.store.getState());
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => response.json())
-            .then(users => {this.setState({ robots: users})});
+    //     fetch('https://jsonplaceholder.typicode.com/users')
+    //         .then(response => response.json())
+    //         .then(users => {this.setState({ robots: users})});
+        this.props.onRequestRobots();
     }
 
     // onSearchChange = (event) => {
@@ -43,15 +48,16 @@ class App extends Component {
 
     render () {
         // const { robots, searchfield } = this.state;
-        const { robots } = this.state;
-        const { searchField, onSearchChange } = this.props;
+        // const { robots } = this.state;
+        const { searchField, onSearchChange, robots, isPending } = this.props;
         const filteredRobots = robots.filter(robot => {
             return (robot.name.toLowerCase().includes(
                 // searchfield.toLowerCase()
                 searchField.toLowerCase()
             ));
         })
-        if (robots.length === 0) {
+        // if (robots.length === 0) {
+        if (isPending) {
             return (
                 <div className='tc'>
                     <h1 className='f1'>Loading...</h1>

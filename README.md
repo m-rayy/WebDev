@@ -1395,6 +1395,16 @@ Finally, if the above is still giving you issues, you have a second option: http
 The Complete Junior to Senior Web Developer Roadmap (2020):
 *	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap
 
+These are the best resources I have found on interviewing and landing a job/career as a developer. I hope you find them useful:
+1. https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/
+2. http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews
+3. Offer Negotiation
+4. https://medium.freecodecamp.org/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331
+5. https://medium.com/on-writing-code/how-to-win-the-coding-interview-71ae7102d685
+
+Advice on Being a Junior Developer: https://zerotomastery.io/blog/dont-be-a-junior-developer
+Advice on How To Become A Senior Developer: https://zerotomastery.io/blog/developers-edge-how-to-become-a-senior-developer
+
 
 ******************************************************************************************
 ## 30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
@@ -1430,10 +1440,18 @@ There is a Redux Toolkit to avoid some of the "boilerplate code": https://redux-
 
 Project repo: https://github.com/aneagoie/robofriends-redux
 
-
-******************************************************************************************
-## 33.	__Extra: For Windows Users__
-
-
-******************************************************************************************
-## 34.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
+Popular tools for React & Redux:
+*	https://reactrouter.com/
+*	https://ramdajs.com/
+*	https://lodash.com/
+*	https://glamorous.rocks/
+*	https://styled-components.com/
+*	https://github.com/css-modules/css-modules
+*	https://www.gatsbyjs.com/
+*	https://nextjs.org/
+*	https://material-ui.com/
+*	https://react.semantic-ui.com/
+*	https://github.com/reduxjs/reselect
+*	https://redux-saga.js.org/
+*	https://immutable-js.github.io/immutable-js/
+*	
