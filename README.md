@@ -11,12 +11,12 @@ https://zero-to-mastery.github.io/resources/
 
 
 ******************************************************************************************
-## 1.	__Introduction__
+## 1.1.	__Introduction__
 
 Discord Channel:
 *	~~https://discord.gg/nVmbHYY~~ You will find it inside course
 ******************************************************************************************
-## 2.	__How The Internet Works__
+## 1.2.	__How The Internet Works__
 
 Tools:
 *	Chrome Developer Tools
@@ -28,7 +28,7 @@ Topics:
 Submarine Cable Map:
 *	https://www.submarinecablemap.com/
 ******************************************************************************************
-## 3.	__History Of The Web__
+## 1.3.	__History Of The Web__
 
 Maps that explain the Internet:
 *	https://www.vox.com/a/internet-maps
@@ -42,7 +42,7 @@ Optional Videos:
 *	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
 
 ******************************************************************************************
-## 4. __HTML 5__
+## 1.4. __HTML 5__
 
 
 Install a text editor (Select one):
@@ -78,7 +78,7 @@ Reference websites:
 
 
 ******************************************************************************************
-## 5.	__Advanced HTML 5__
+## 1.5.	__Advanced HTML 5__
 
 
 Tags:
@@ -115,7 +115,7 @@ Quizes & Exercises:
 
 
 ******************************************************************************************
-## 6.	__CSS__
+## 1.6.	__CSS__
 
 Syntax:
 ```css
@@ -216,7 +216,7 @@ Website for fonts download:
 
 
 ******************************************************************************************
-## 7.	__Advanced CSS__
+## 1.7.	__Advanced CSS__
 
 Flexbox
 *	`display: flex`
@@ -262,7 +262,7 @@ Reference websites:
 > __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
 ******************************************************************************************
-## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
+## 1.8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 Reference:
 * 	Get started: https://getbootstrap.com/
@@ -298,7 +298,7 @@ Installing Github:
 *	https://desktop.github.com/
 
 ******************************************************************************************
-## 9.	__CSS Grid + CSS Layout__
+## 1.9.	__CSS Grid + CSS Layout__
 
 Cheat Sheets:
 *	Grid: http://grid.malven.co/
@@ -311,7 +311,7 @@ Free Design resources:
 *	https://interfacer.xyz/
 
 ******************************************************************************************
-## 10.	__Career Of A Web Developer__
+## 1.10.	__Career Of A Web Developer__
 ******************************************************************************************
 
 TODO - The Real Web Developer Roadmap:
@@ -325,7 +325,7 @@ TODO:
 *	Create a blog (maybe as training progress)
 
 ******************************************************************************************
-## 11.	__Javascript__
+## 1.11.	__Javascript__
 
 Javascript types:
 1. Number
@@ -416,7 +416,7 @@ Reference websites:
 *	JS array methods: https://www.w3schools.com/jsref/jsref_obj_array.asp
 
 ******************************************************************************************
-## 12.	__DOM Manipulation__
+## 1.12.	__DOM Manipulation__
 
 With the object model, JavaScript gets all the power it needs to create dynamic HTML:
 
@@ -442,7 +442,7 @@ TODO: Background Generator (BONUS)
 
 
 ******************************************************************************************
-## 13.	__Advanced Javascript__
+## 1.13.	__Advanced Javascript__
 ******************************************************************************************
 
 Reference websites:
@@ -464,7 +464,7 @@ TODO: 12_challenge Question 3 (reverse converter + automatic multi-way converter
 
 
 ******************************************************************************************
-## 14. __Command Line__
+## 1.14. __Command Line__
 
 
 
@@ -514,7 +514,7 @@ cls - clear the terminal screen
 
 
 ******************************************************************************************
-## 15.	__Developer Environment__
+## 1.15.	__Developer Environment__
 
 Popular code editors:
 * [Sublime Text 3](https://www.sublimetext.com/3)
@@ -524,7 +524,7 @@ Popular code editors:
 
 
 ******************************************************************************************
-## 16.	__Git + Github + Open Source Projects__
+## 1.16.	__Git + Github + Open Source Projects__
 
 
 
@@ -600,11 +600,11 @@ you will have to use `main` instead of `master`.
 
 
 ******************************************************************************************
-## 17.	__A Day In The Life Of A Developer__
+## 1.17.	__A Day In The Life Of A Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 18.	__NPM + NPM Scripts__
+## 1.18.	__NPM + NPM Scripts__
 
 Install node and npm:
 *	https://www.npmjs.com/get-npm
@@ -672,7 +672,7 @@ Simplefolio:
 
 
 ******************************************************************************************
-## 19.	__React.js + Redux__
+## 1.19.	__React.js + Redux__
 
 create-react-app v1:
 *	https://www.npmjs.com/package/create-react-app
@@ -734,7 +734,7 @@ Reference websites:
 *	https://facebook.github.io/immutable-js/
 
 ******************************************************************************************
-## 20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
+## 1.20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
 ******************************************************************************************
 
 *	HTTP messages: https://www.w3schools.com/tags/ref_httpmessages.asp
@@ -743,12 +743,12 @@ Reference websites:
 
 
 ******************************************************************************************
-## 21.	__Backend Basics__
+## 1.21.	__Backend Basics__
 ******************************************************************************************
 
 
 ******************************************************************************************
-## 22. __APIs__
+## 1.22. __APIs__
 ******************************************************************************************
 
 Star Wars API & its clones:
@@ -774,7 +774,7 @@ TODO - Speech Recognition Challenge:
 
 
 ******************************************************************************************
-## 23.	__FINAL PROJECT: SmartBrain Front-End__
+## 1.23.	__FINAL PROJECT: SmartBrain Front-End__
 
 Animated objects library:
 *	https://www.npmjs.com/package/react-tilt
@@ -843,7 +843,7 @@ Gitlab repos (v1.0):
 
 
 ******************************************************************************************
-## 24.	__Node.js + Express.js__
+## 1.24.	__Node.js + Express.js__
 
 References:
 *	JS Robotics: http://johnny-five.io/
@@ -895,7 +895,7 @@ Node.js Reference websites:
 
 
 ******************************************************************************************
-## 25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
+## 1.25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
 
 Resource: Storing passwords securely (TODO: check links)<br>
 This is an update of a technical post I wrote for a tech company (Rangle). It is completely optional, but it discusses proper ways that companies should store user passwords:
@@ -1048,7 +1048,7 @@ app.use(cors());
 
 
 ******************************************************************************************
-## 26.	__Databases__
+## 1.26.	__Databases__
 
 
 Install PostgreSQL:
@@ -1214,7 +1214,7 @@ TODO - SQL Exercises:
 
 
 ******************************************************************************************
-## 27.	__FINAL PROJECT: SmartBrain Back-End – Database__
+## 1.27.	__FINAL PROJECT: SmartBrain Back-End – Database__
 
 Tools for db connection with back-end:
 *	https://knexjs.org/
@@ -1223,7 +1223,7 @@ Tools for db connection with back-end:
 
 
 ******************************************************************************************
-## 28.	__Production + Deployment__
+## 1.28.	__Production + Deployment__
 
 Gitlab repose (v2.0):
 *	https://github.com/aneagoie/smart-brain-api
@@ -1391,7 +1391,7 @@ Finally, if the above is still giving you issues, you have a second option: http
 
 
 ******************************************************************************************
-## 29.	__Where To Go From Here?__
+## 1.29.	__Where To Go From Here?__
 The Complete Junior to Senior Web Developer Roadmap (2020):
 *	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap
 
@@ -1407,19 +1407,19 @@ Advice on How To Become A Senior Developer: https://zerotomastery.io/blog/develo
 
 
 ******************************************************************************************
-## 30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
+## 1.30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
 
 
 ******************************************************************************************
 
 
-## 31.	__Extra Learning: React Hooks__
+## 1.31.	__Extra Learning: React Hooks__
 References:
 *	https://reactjs.org/docs/hooks-intro.html
 *	Repo: https://github.com/aneagoie/robofriends-hooks
 
 ******************************************************************************************
-## 32.	__Extra Learning: Redux__
+## 1.32.	__Extra Learning: Redux__
 
 Flux pattern (one-way flow) replaced MVC (mono view controller):
 Action -> Dispatcher -> Store -> View
