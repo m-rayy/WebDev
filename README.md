@@ -1418,6 +1418,7 @@ References:
 *	https://reactjs.org/docs/hooks-intro.html
 *	Repo: https://github.com/aneagoie/robofriends-hooks
 
+
 ******************************************************************************************
 ## 1.32.	__Extra Learning: Redux__
 
@@ -1454,4 +1455,37 @@ Popular tools for React & Redux:
 *	https://github.com/reduxjs/reselect
 *	https://redux-saga.js.org/
 *	https://immutable-js.github.io/immutable-js/
-*	
+
+
+******************************************************************************************
+# Junior-to-Senior-Web-Developer-Manual
+
+
+******************************************************************************************
+## 2.01.	__Introduction__
+
+*	How to become a Senior Developer: https://zerotomastery.io/blog/developers-edge-how-to-become-a-senior-developer/
+*	Mind Mapping: https://lifehacker.com/how-to-use-mind-maps-to-unleash-your-brains-creativity-1348869811
+*	Mind Mapping example: https://www.youtube.com/watch?v=sBzRwzY7G-k&t=1s
+*	TO DO - Java Development Environment: https://www.pluralsight.com/courses/javascript-development-environment
+*	TO DO - book recommendation: https://bigmachine.io/products/the-imposters-handbook/
+*	TO DO - book recommendation: https://www.amazon.ca/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_image_bk
+*	TO DO - daily podcast: https://softwareengineeringdaily.com/category/podcast/
+*	The Mythical 10x programmer: http://antirez.com/news/112
+*	TO DO - book recommendation: https://www.amazon.ca/How-Win-Friends-Influence-People/dp/0671027034
+*	Emotional Intelligence: https://www.psychologytoday.com/intl/basics/emotional-intelligence
+*	TO DO - book recommendation: https://www.amazon.ca/influence-Psychology-Robert-PhD-Cialdini/dp/006124189X
+*	Example 1 - explaining technical things to non-technical people: https://www.youtube.com/watch?v=UBVV8pch1dM
+*	Example 2 - explaining technical things to non-technical people: https://www.youtube.com/watch?v=vOppzHpvTiQ
+*	The science of deliberate practice: https://medium.com/better-humans/the-science-of-deliberate-practice-as-told-by-hardbound-b771ba80d9be#.kvy9rsr43
+*	TO DO - salary negotiations: https://www.iwillteachyoutoberich.com/blog/salary-negotiation/?ref=sidebar
+*	TO DO - book recommendation: https://www.amazon.ca/Good-They-Cant-Ignore-You/dp/1455509124
+
+*	https://zerotomastery.io/blog/dont-be-a-junior-developer/
+
+
+******************************************************************************************
+## 2..	__Title__
+
+
+******************************************************************************************
