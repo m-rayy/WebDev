@@ -1485,7 +1485,29 @@ Popular tools for React & Redux:
 
 
 ******************************************************************************************
-## 2..	__Title__
+# Complete-Web-&-Mobile-Designer
+
+
+******************************************************************************************
+## 3.01.	__Introduction__
+
+Resources:
+*	Goal conversion using A/B tests: https://goodui.org/
+
+Inspirations:
+*	https://www.awwwards.com/
+*	https://www.behance.net/
+
+Icons:
+*	https://www.flaticon.com/
+*	https://thenounproject.com/
+
+Photos:
+*	https://unsplash.com/
+
+
+******************************************************************************************
+## 3..	__Title__
 
 
 ******************************************************************************************
