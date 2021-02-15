@@ -1485,12 +1485,13 @@ Popular tools for React & Redux:
 
 
 ******************************************************************************************
-<<<<<<< HEAD
-## 2..	__Title__
+## 2.02.	__SSH__
+
+*	Debugging ssh commands on Linux: https://www.makeuseof.com/tag/beginners-guide-setting-ssh-linux-testing-setup/
+
 
 
 ******************************************************************************************
-=======
 # Complete-Web-&-Mobile-Designer
 
 
@@ -1517,4 +1518,3 @@ Photos:
 
 
 ******************************************************************************************
->>>>>>> 8cd255e3bc40fa8873edd4fa4f891421d9298a4f
