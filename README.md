@@ -1488,7 +1488,21 @@ Popular tools for React & Redux:
 ## 2.02.	__SSH__
 
 *	Debugging ssh commands on Linux: https://www.makeuseof.com/tag/beginners-guide-setting-ssh-linux-testing-setup/
+*	Installing packages on Ubuntu: https://help.ubuntu.com/community/AptGet/Howto
+*	Copying local files to server via ssh using rsync:
+		```
+		~/source_folder rysnc -av . root@000.00.000.00:~/target_folder
+		```
+	More information on rsync : https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/
 
+*	TODO - host your website: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04
+*	TODO - 100$ credit on DigitalOcean: https://m.do.co/c/ef8add492554
+
+*	Asymmetric encryption:
+	- https://www.youtube.com/watch?v=NmM9HA2MQGI
+	- TODO: https://www.youtube.com/watch?v=Yjrfm_oRO0w
+	- TODO: https://www.youtube.com/watch?v=vsXMMT2CqqE&t=
+	- TODO: https://www.youtube.com/watch?v=NF1pwjL9-DE
 
 
 ******************************************************************************************
